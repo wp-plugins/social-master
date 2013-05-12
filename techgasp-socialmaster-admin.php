@@ -35,7 +35,7 @@
 
 <hr>
 
-<img src="../wp-content/plugins/social-master/techgasp_socialmaster-logo.png" alt="Social Master" align="left" width="387px" height="171px" style="padding:5px;"/>
+<img src="../wp-content/plugins/social-master/techgasp-socialmaster-logo.png" alt="Social Master" align="left" width="387px" height="171px" style="padding:5px;"/>
 <p><h3>Social Master:</h3></p>
 <p>Social Master is a light weight and shiny clean code wordpress plugin <b>WIDGET</b> that you need to boost your wordpress social engagement, attracting new users, visits or sales. Social Master replaces a bunch of extensions keeping your wordpress website code clean and with fast page loading times because it makes <b>NO use of Javascipt or Ajax</b>. Buil-in html5 and iframe, Social Master combines 11 major social networks sharing tools, Faceook Like and Send, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share, with more social networks coming in future updates. The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.</p>
 <p><em>Social Master is the Wordpress social sharing Supreme widget...</em><p>

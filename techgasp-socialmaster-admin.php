@@ -1,5 +1,5 @@
 <div class="wrap">
-<div class="icon32" style="width:40px; vertical-align:middle;"><img src="../wp-content/plugins/techgasp-socialmaster/techgasp-minilogo.png" alt="' . esc_attr__( 'TechGasp Plugins') . '" /><br /></div>
+<div class="icon32" style="width:40px; vertical-align:middle;"><img src="../wp-content/plugins/social-master/techgasp-minilogo.png" alt="' . esc_attr__( 'TechGasp Plugins') . '" /><br /></div>
 
 <h2><b>TechGasp - Social Master</b></h2>
 <form method="post" action="techgas-socialmaster-admin.php"> 
@@ -35,7 +35,7 @@
 
 <hr>
 
-<img src="../wp-content/plugins/techgasp-socialmaster/techgasp-socialmaster-logo.png" alt="Social Master" align="left" width="387px" height="171px" style="padding:5px;"/>
+<img src="../wp-content/plugins/social-master/techgasp_socialmaster-logo.png" alt="Social Master" align="left" width="387px" height="171px" style="padding:5px;"/>
 <p><h3>Social Master:</h3></p>
 <p>Social Master is a light weight and shiny clean code wordpress plugin <b>WIDGET</b> that you need to boost your wordpress social engagement, attracting new users, visits or sales. Social Master replaces a bunch of extensions keeping your wordpress website code clean and with fast page loading times because it makes <b>NO use of Javascipt or Ajax</b>. Buil-in html5 and iframe, Social Master combines 11 major social networks sharing tools, Faceook Like and Send, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share, with more social networks coming in future updates. The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.</p>
 <p><em>Social Master is the Wordpress social sharing Supreme widget...</em><p>
@@ -43,7 +43,7 @@
 <p><h3>Options & Configuration:</h3></p>
 <p><b>All configuration options are available in your widgets page</b>.</p>
 <p>Select or <em>"add"</em > Social Master Widget. Select Social Buttons you want to display. Select widget position according to your template. That easy...</p>
-<p><a class="button-primary" href="widgets.php" title="Widgets Page">To Widgets Page</a> <a class="button-secondary" href="http://2w.techgasp.com/download/social-sharing/social-master-for-wordpress/" target="_blank" title="More Help">More Help</a></p>
+<p><a class="button-primary" href="widgets.php" title="Widgets Page">To Widgets Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/" target="_blank" title="More Help">More Help</a></p>
 
 <hr>
 <br>

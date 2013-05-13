@@ -112,7 +112,6 @@ require_once('techgasp-socialmaster-widget.php');
 		return $links;
 		}
 	}
-
 		if ( is_admin() )
 		{
 		add_action('admin_init', array('techgasp_socialmaster', 'register_techgasp_socialmaster'));

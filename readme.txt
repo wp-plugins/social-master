@@ -14,16 +14,21 @@ Social Master is a light weight and shiny clean code wordpress plugin WIDGET tha
 
 = Social Master is the Wordpress social sharing Supreme widget... =
 
-= FREE Version of Social Master =
+**FREE Version of Social Master**
+
 FREE Version Contains:
+
 * Facebook Like Button
 * Twitter Follow Button
 * Tweet Button
 * Google Plus Button
 
-= ADVANCED Version of Social Master =
+**ADVANCED Version of Social Master**
+
 Advanced Version Contains:
-[Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
+
+[Advanced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
+
 * Facebook Like Button
 * Twitter Follow Button
 * Tweet Button

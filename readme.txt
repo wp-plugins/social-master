@@ -3,14 +3,14 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 2.5
+Stable tag: 2.6
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
 
 == Description ==
 
-Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement, attracting new users, visits or sales. Social Master replaces a bunch of extensions keeping your wordpress website code clean and with fast page loading times because it makes NO use of Javascipt or Ajax. Buil-in html5 and iframe, Social Master combines 11 major social networks sharing tools, Faceook Like and Send, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share, with more social networks coming in future updates. The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
+Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement, attracting new users, visits or sales. Social Master replaces a bunch of extensions keeping your wordpress website code clean and with fast page loading times because it makes NO use of Javascipt or Ajax. Buil-in html5 and iframe, Social Master combines all major social networks sharing tools, Facebook Like and Send, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and Reddit Share, with more social networks coming in future updates. The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
 Social Master is the Wordpress social sharing Supreme widget...
 
 == Installation ==
@@ -24,6 +24,10 @@ Social Master is the Wordpress social sharing Supreme widget...
 = Issues with buttons display =
 Please update to latest version. Up-to-date API's are available
 
+= WHERE ARE ALL THE BUTTONS? =
+FREE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
+ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share.
+
 = Need More Help =
 - ABOUT DOCUMENTATION: http://worpress.techgasp.com
 - ABOUT INSTALLATION: http://worpress.techgasp.com
@@ -33,8 +37,15 @@ Please update to latest version. Up-to-date API's are available
 
 1. Widget With Facebook FanPage Total Count
 2. Widget With Facebook Like Your Individual Website Pages
+3. Advanced Widget witth all Social Network Buttons
 
 == Changelog ==
+
+= 2.6 =
+* Adding more Buttons
+* Adding 1 more screenshot
+* Updating plugin admin page
+* Updating plugin widget page
 
 = 2.5 =
 * Adding Facebook double punch option. Like your Facebook Fan Page or Like Your Individual Website Page.
@@ -69,7 +80,7 @@ Please update to latest version. Up-to-date API's are available
 == Upgrade Notice ==
 
 = 2.5 =
-* IMPORTANT Adding facebook Double Puch Action
+* IMPORTANT Adding Facebook Double Puch Action
 
 = 2.4 =
 * IMPORTANT Fixing Name Space Issues

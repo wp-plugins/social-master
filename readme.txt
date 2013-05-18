@@ -3,10 +3,11 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 2.6
+Stable tag: 2.7
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
+
 
 == Description ==
 
@@ -16,9 +17,9 @@ Buil-in html5 and iframe, Social Master combines all major social networks shari
 
 The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
 
-= Social Master is the Wordpress social sharing Supreme widget =
+**Social Master is the Wordpress social sharing Supreme widget**
 
-**FREE Version Contains:**
+**LITE Version Contains:**
 
 * Facebook Like Button
 * Twitter Follow Button
@@ -49,13 +50,14 @@ The plugin is packed with many display options, in fact you can decide what butt
 2. Activate in the "Plugins" admin panel.
 3. Visit the "Widget Page | Social Master" to configure social buttons providers and your template widget position.
 
+
 == Frequently Asked Questions ==
 
 = Issues with buttons display =
 Please update to latest version. Up-to-date API's are available
 
 = WHERE ARE ALL THE BUTTONS? =
-FREE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
+LITE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
 ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share.
 * [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
 
@@ -65,13 +67,19 @@ ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitt
 * [ABOUT INSTALLATION](http://worpress.techgasp.com)
 * [SUPPORT](http://worpress.techgasp.com/support)
 
+
 == Screenshots ==
 
 1. Widget With Facebook FanPage Total Count
 2. Widget With Facebook Like Your Individual Website Pages
 3. Advanced Widget witth all Social Network Buttons
 
+
 == Changelog ==
+
+= 2.7 =
+* Fixing Warning
+* Fixing a few typos
 
 = 2.6 =
 * Adding more Buttons
@@ -108,6 +116,7 @@ ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitt
 
 = 1.0 =
 * First Beta Release
+
 
 == Upgrade Notice ==
 

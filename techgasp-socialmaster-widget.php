@@ -17,8 +17,8 @@ class techgasp_socialmaster_widget extends WP_Widget {
 		extract( $args );
 		//Our variables from the widget settings.
 		$title = "Social Master";
-		$uribase = site_url( $path, $scheme );
-		$uricurrent = get_page_uri( $page_id );
+		@$uribase = site_url( $path, $scheme );
+		@$uricurrent = get_page_uri( $page_id );
 		$socialspacer ="'";
 		$show_facebook = isset( $instance['show_facebook'] ) ? $instance['show_facebook'] :false;
 		$facebook_display = isset( $instance['facebook_display'] ) ? $instance['facebook_display'] :false;
@@ -91,7 +91,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	}
 	function form( $instance ) {
 	//Set up some default widget settings.
-	$defaults = array( 'title' => __('Social Master', 'social master'), 'show_facebook' => false, 'show_twitter' => false, 'show_google' => false );
+	$defaults = array( 'title' => __('Social Master', 'social master'), 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
 		<b>Check the buttons to be displayed:</b>

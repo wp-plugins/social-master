@@ -2,7 +2,7 @@
 /**
 Plugin Name: Social Master
 Plugin URI: http://wordpress.techgasp.com/social-master/
-Version: 2.7
+Version: 2.8
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: social-master
@@ -50,7 +50,7 @@ require_once('techgasp-socialmaster-widget.php');
 		* Arg(0): null
 		* Return: void
 		*/
-		public static function register()
+		public static function techgasp_socialmaster_register()
 		{
 			register_setting(TECHGASP_SOCIALMASTER_ID.'_options', 'tsm_quote');
 		}
@@ -114,8 +114,7 @@ require_once('techgasp-socialmaster-widget.php');
 	}
 		if ( is_admin() )
 		{
-		add_action('admin_init', array('techgasp_socialmaster', 'register_techgasp_socialmaster'));
-		add_action('widgets_init', array('techgasp_socialmaster', 'register_techgasp_socialmaster_widget'));
+		add_action('admin_init', array('techgasp_socialmaster', 'techgasp_socialmaster_register'));
 		add_action('admin_menu', array('techgasp_socialmaster', 'menu'));
 		}
 		add_filter('the_content', array('techgasp_socialmaster', 'content_with_quote'));

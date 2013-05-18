@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 2.7
+Stable tag: 2.8
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -76,6 +76,10 @@ ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitt
 
 
 == Changelog ==
+
+= 2.8 =
+* Fixing User Array Warnings
+* Fixing Widget Undefined Index
 
 = 2.7 =
 * Fixing Warning

@@ -125,7 +125,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	</p>
 	<hr>
 	<p><b>Add all Social Networks to this widget.</b> Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, Soundcloud Connect, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share.</p>
-	<p><a class="button-primary" href="http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/" target="_blank" title="More Social Networks">Add More Social Networks</a></p>
+	<p><a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="More Social Networks">Add More Social Networks</a></p>
 	<?php
 	}
  }

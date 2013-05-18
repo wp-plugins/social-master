@@ -28,7 +28,7 @@ The plugin is packed with many display options, in fact you can decide what butt
 
 **ADVANCED Version Contains:**
 
-[Advanced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
+[Advanced Version Link](http://wordpress.techgasp.com/social-master/)
 
 * Facebook Like Button
 * Twitter Follow Button

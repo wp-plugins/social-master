@@ -43,13 +43,13 @@
 <p><h3>Options & Configuration:</h3></p>
 <p><b>All configuration options are available in your widgets page. <b>Social Master Widget</b>:</b>.</p>
 <p>Select or <em>"add"</em > Social Master Widget. Select Social Buttons you want to display. Select widget position according to your template. That easy...</p>
-<p><b>Insert Social Master Widget inside Pages and Posts:</b>.</p>
-<p>Copy and Paste this shortcode inside your pages or posts [widget widget_name="techgasp-socialmaster"]</p>
+<p><b>Insert SoundClound Master Widget inside Pages and Posts (advanced version only):</b></p>
+<p>Copy and Paste this shortcode inside your pages or posts [socialmaster id=xx] replace xx with your sidebar number, ie [socialmaster id=sidebar-1]</p>
 <p><a class="button-primary" href="widgets.php" title="Widgets Page">To Widgets Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="More Help">More Help</a> <a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 <hr>
 <p><h3>Social Master Advanced Version</h3></p>
 <p>Lite version contains Facebook Like, Twitter Follow, Tweet, Google Plus.</p>
-<p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share.</p>
+<p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
 <p><a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 </form>
 </div>

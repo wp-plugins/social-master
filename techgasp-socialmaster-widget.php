@@ -16,7 +16,8 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	function widget( $args, $instance ) {
 		extract( $args );
 		//Our variables from the widget settings.
-		$title = "Social Master";
+		$name = "Social Master";
+		$title = isset( $instance['title'] ) ? $instance['title'] :false;
 		@$uribase = site_url( $path, $scheme );
 		@$uricurrent = get_page_uri( $page_id );
 		$socialspacer ="'";
@@ -31,7 +32,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 		
 		// Display the widget title
 	if ( $title )
-		echo $before_title . $title . $after_title;
+		echo $before_title . $name . $after_title;
 	//Display Facebook
 	if ( $show_facebook ){
 		if ( $facebook_display ){
@@ -79,6 +80,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 		//Strip tags from title and name to remove HTML
+		$instance['name'] = strip_tags( $new_instance['name'] )
 		$instance['title'] = strip_tags( $new_instance['title'] );
 		$instance['show_facebook'] = $new_instance['show_facebook'];
 		$instance['facebook_display'] = $new_instance['facebook_display'];
@@ -91,10 +93,17 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	}
 	function form( $instance ) {
 	//Set up some default widget settings.
-	$defaults = array( 'title' => __('Social Master', 'social master'), 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
+	$defaults = array( 'name' => __('Social Master', 'social master'), 'title' => false, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
 		<b>Check the buttons to be displayed:</b>
+		<!--TITLE-->
+	<p>
+	<input type="checkbox" <?php checked( (bool) $instance['title'], true ); ?> id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" />
+	<label for="<?php echo $this->get_field_id( 'title' ); ?>"><b><?php _e('Display Widget Title', 'social master'); ?></b></label></br>
+	</p>
+	<hr>
+		<!--FACEBOOK-->
 	<p>
 	<input type="checkbox" <?php checked( (bool) $instance['show_facebook'], true ); ?> id="<?php echo $this->get_field_id( 'show_facebook' ); ?>" name="<?php echo $this->get_field_name( 'show_facebook' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_facebook' ); ?>"><b><?php _e('Facebook Button', 'social master'); ?></b></label></br>
@@ -110,6 +119,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	<input id="<?php echo $this->get_field_id( 'facebook_id' ); ?>" name="<?php echo $this->get_field_name( 'facebook_id' ); ?>" value="<?php echo $instance['facebook_id']; ?>" style="width:auto;" />
 	</p>
 	<hr>
+		<!--TWITTER-->
 	<p>
 	<input type="checkbox" <?php checked( (bool) $instance['show_twitter'], true ); ?> id="<?php echo $this->get_field_id( 'show_twitter' ); ?>" name="<?php echo $this->get_field_name( 'show_twitter' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_twitter' ); ?>"><b><?php _e('Twitter Button', 'social master'); ?></b></label></br>
@@ -119,6 +129,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	<input id="<?php echo $this->get_field_id( 'twitter_user' ); ?>" name="<?php echo $this->get_field_name( 'twitter_user' ); ?>" value="<?php echo $instance['twitter_user']; ?>" style="width:auto;" />
 	</p>
 	<hr>
+		<!--GOOGLE-->
 	<p>
 	<input type="checkbox" <?php checked( (bool) $instance['show_google'], true ); ?> id="<?php echo $this->get_field_id( 'show_google' ); ?>" name="<?php echo $this->get_field_name( 'show_google' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_google' ); ?>"><b><?php _e('Google Button', 'social master'); ?></b></label>

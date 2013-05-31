@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 2.9
+Stable tag: 3.0
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -21,6 +21,7 @@ The plugin is packed with many display options, in fact you can decide what butt
 
 **LITE Version Contains:**
 
+* Display or hide Widget Title
 * Facebook Like Button
 * Twitter Follow Button
 * Tweet Button
@@ -60,7 +61,7 @@ Please update to latest version. Up-to-date API's are available
 = WHERE ARE ALL THE BUTTONS? =
 * LITE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
 * ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share.
-* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
+* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress
 
 = WHERE IS THE SHORTCODE? =
 * ADVANCED Version contains shortcode framework to use the widget inside your pages and posts.
@@ -82,6 +83,9 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 3.0 =
+* Added option to show or hide widget name
 
 = 2.9 =
 * Adding shortcode framework only available in advanced version

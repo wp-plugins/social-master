@@ -80,7 +80,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 		//Strip tags from title and name to remove HTML
-		$instance['name'] = strip_tags( $new_instance['name'] )
+		$instance['name'] = strip_tags( $new_instance['name'] );
 		$instance['title'] = strip_tags( $new_instance['title'] );
 		$instance['show_facebook'] = $new_instance['show_facebook'];
 		$instance['facebook_display'] = $new_instance['facebook_display'];

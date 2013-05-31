@@ -93,7 +93,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	}
 	function form( $instance ) {
 	//Set up some default widget settings.
-	$defaults = array( 'name' => __('Social Master', 'social master'), 'title' => false, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
+	$defaults = array( 'name' => __('Social Master', 'social master'), 'title' => true, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
 		<b>Check the buttons to be displayed:</b>

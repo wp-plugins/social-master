@@ -61,17 +61,17 @@ Please update to latest version. Up-to-date API's are available
 = WHERE ARE ALL THE BUTTONS? =
 * LITE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
 * ADVANCED Version constains all Buttons and Social Networks. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share.
-* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress
+* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master/)
 
 = WHERE IS THE SHORTCODE? =
 * ADVANCED Version contains shortcode framework to use the widget inside your pages and posts.
-* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master-for-wordpress/)
+* [Advaced Version Link](http://wordpress.techgasp.com/download/social-sharing/social-master/)
 
 = Need More Help =
 
-* [ABOUT DOCUMENTATION](http://worpress.techgasp.com)
-* [ABOUT INSTALLATION](http://worpress.techgasp.com)
-* [SUPPORT](http://worpress.techgasp.com/support)
+* [ABOUT DOCUMENTATION](http://wordpress.techgasp.com)
+* [ABOUT INSTALLATION](http://wordpress.techgasp.com)
+* [SUPPORT](http://wordpress.techgasp.com/support)
 
 
 == Screenshots ==

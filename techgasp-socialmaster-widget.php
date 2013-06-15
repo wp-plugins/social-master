@@ -60,7 +60,10 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	}
 	//Display Twitter
 	if ( $show_twitter )
-			echo '<center><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://mikeseese.com/tw_vert_follow.php?username='.$twitter_user.'" style="height: 62px; width: 60px;"></iframe></br>'.
+			echo '<center>
+			<a href="https://twitter.com/'.$twitter_user.'" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>' .
+			'<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'.$socialspacer.'http'.$socialspacer.':'.$socialspacer.'https'.$socialspacer.';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'.$socialspacer.'://platform.twitter.com/widgets.js'.$socialspacer.';fjs.parentNode.insertBefore(js,fjs);}}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'twitter-wjs'.$socialspacer.');</script>' .
+			'</br>' .
 			'<a href="https://twitter.com/share" class="twitter-share-button" data-url="'.$uribase.'.'.$uricurrent.'" data-via="'.$twitter_user.'" data-count="none">Tweet</a>' .
 			'<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'.$socialspacer.'http'.$socialspacer.':'.$socialspacer.'https'.$socialspacer.';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'.$socialspacer.'://platform.twitter.com/widgets.js'.$socialspacer.';fjs.parentNode.insertBefore(js,fjs);}}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'twitter-wjs'.$socialspacer.');</script>';
 	//Display Google Plus

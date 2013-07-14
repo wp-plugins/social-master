@@ -1,7 +1,7 @@
 <div class="wrap">
 <div class="icon32" style="width:40px; vertical-align:middle;"><img src="../wp-content/plugins/social-master/techgasp-minilogo.png" alt="' . esc_attr__( 'TechGasp Plugins') . '" /><br /></div>
 
-<h2><b>TechGasp - Social Master</b></h2>
+<h2><b>TechGasp - Social Master Lite Version</b></h2>
 <form method="post" action="techgasp-socialmaster-admin.php"> 
 <p><b>About TechGasp:</b></p>
 <p>Major player in the Content Management System world! Joomla and Jomsocial Partner with more than 100 high quality, error free Extensions. We provide website customizations and development, SEO Optimization, Facebook Apps, etc. We have fast & furious specialized Hosting for WordPress and Joomla. Our promise, the use of minimal error free code with fast loading times. Also to avoid the implementation of useless Javascript and Ajax in CMS by replacing it with solida php, css, html5 and iframe. Check our website for more high quality extensions. Stay up to date by "like" and "follow" our facebook and twitter page for fresh news, releases and upgrades and updates.</p>
@@ -43,13 +43,13 @@
 <p><h3>Options & Configuration:</h3></p>
 <p><b>All configuration options are available in your widgets page. <b>Social Master Widget</b>:</b>.</p>
 <p>Select or <em>"add"</em > Social Master Widget. Select Social Buttons you want to display. Select widget position according to your template. That easy...</p>
-<p><b>Insert SoundClound Master Widget inside Pages and Posts (advanced version only):</b></p>
+<p><b>Insert Social Master Widget inside Pages and Posts (advanced version only):</b></p>
 <p>Copy and Paste this shortcode inside your pages or posts [socialmaster id=xx] replace xx with your sidebar number, ie [socialmaster id=sidebar-1]</p>
 <p><a class="button-primary" href="widgets.php" title="Widgets Page">To Widgets Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="More Help">More Help</a> <a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 <hr>
 <p><h3>Social Master Advanced Version</h3></p>
-<p>Lite version contains Facebook Like, Twitter Follow, Tweet, Google Plus.</p>
-<p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
+<p><b>You have the Lite version</b>. Contains Facebook Like, Twitter Follow, Tweet, Google Plus.</p>
+<p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Tumbrl Follow, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
 <p><a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 </form>
 </div>

@@ -47,8 +47,8 @@
 <p>Copy and Paste this shortcode inside your pages or posts [socialmaster id=xx] replace xx with your sidebar number, ie [socialmaster id=sidebar-1]</p>
 <p><a class="button-primary" href="widgets.php" title="Widgets Page">To Widgets Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="More Help">More Help</a> <a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 <hr>
+<p><b>You have the Social Master Lite version</b>. Contains Facebook Like and Send, Twitter Follow, Tweet, Google Plus.</p>
 <p><h3>Social Master Advanced Version</h3></p>
-<p><b>You have the Lite version</b>. Contains Facebook Like, Twitter Follow, Tweet, Google Plus.</p>
 <p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Tumbrl Follow, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
 <p><a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Advanced Version">Social Master Advanced Version</a></p>
 </form>

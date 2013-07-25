@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 3.5.1
-Stable tag: 3.2
+Tested up to: 3.5.2
+Stable tag: 3.3
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -17,6 +17,8 @@ Buil-in html5 and iframe, Social Master combines all major social networks shari
 
 The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
 
+Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, douple punch action - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Shortcode Framework ready, to publish inside pages and post
+
 IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **Social Master is the Wordpress social sharing Supreme widget**
@@ -25,6 +27,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 * Display or hide Widget Title
 * Facebook Like Button
+* Facebook Send Button
 * Twitter Follow Button
 * Tweet Button
 * Google Plus Button
@@ -34,6 +37,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
 
 * Facebook Like Button
+* Facebook Send Button
 * Twitter Follow Button
 * Tweet Button
 * Google + Plus Button
@@ -59,6 +63,10 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 
 == Frequently Asked Questions ==
+
+= Facebook Like and Send Button Flyout Not Showing or Being Cut =
+This is an issue related to your template.
+Can be fixed by changing your template style.css and allow overflow:visible to the widget area where you want to show the plugin.
 
 = Issues with buttons display =
 Please update to latest version. Up-to-date API's are available
@@ -88,6 +96,11 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 3.3 =
+* Added Facebook Send Button and backend option to activate
+* Widget Backend Redesign
+* Admin Page Redesign
 
 = 3.2 =
 * Added Tumblr Follow Button

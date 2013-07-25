@@ -38,26 +38,26 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	//Display Facebook
 	if ( $show_facebook ){
 		if ( $facebook_display ){
-		echo '<center><div class="fb-like" data-href="'.$facebook_page.'" data-send="false" data-layout="box_count" data-width="90" data-show-faces="false" style="overflow: hidden !important;"></div>' .
-			'<div id="fb-root"></div>' .
+		echo '<div id="fb-root"></div>' .
 			'<script>(function(d, s, id) {' .
 			'var js, fjs = d.getElementsByTagName(s)[0];' .
 			'if (d.getElementById(id)) return;' .
 			'js = d.createElement(s); js.id = id;' .
 			'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='.$facebook_id.'";' .
 			'fjs.parentNode.insertBefore(js, fjs);' .
-			'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script></center>';
+			'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script></center>' .
+			'<center><div class="fb-like" data-href="'.$facebook_page.'" data-send="true" data-layout="box_count" data-width="450" data-show-faces="false"></div>';
 		}
 		else {
-		echo '<center><div class="fb-like" data-href="'.$uricurrent.'" data-send="false" data-layout="box_count" data-width="90" data-show-faces="false" style="overflow: hidden !important;"></div>' .
-			'<div id="fb-root"></div>' .
+		echo '<div id="fb-root"></div>' .
 			'<script>(function(d, s, id) {' .
 			'var js, fjs = d.getElementsByTagName(s)[0];' .
 			'if (d.getElementById(id)) return;' .
 			'js = d.createElement(s); js.id = id;' .
 			'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='.$facebook_id.'";' .
 			'fjs.parentNode.insertBefore(js, fjs);' .
-			'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script></center>';
+			'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script></center>' .
+			'<center><div class="fb-like" data-href="'.$uricurrent.'" data-send="true" data-layout="box_count" data-width="450" data-show-faces="false"></div>';
 		}
 	}
 	//Display Twitter
@@ -165,7 +165,7 @@ class techgasp_socialmaster_widget extends WP_Widget {
 	<hr>
 		<!--NETWORKS-->
 	<p><b>You have Social Master Lite Version.</b></p>
-	<p>Advanced Version constains all social network Buttons. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Tumbrl Follow, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
+	<p>Advanced Version constains all social network Buttons. Facebook Like and Send, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Tumbrl Follow, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Digg Share and finally Reddit Share. Also contains shortcode framework implementation.</p>
 	<p><a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="More Social Networks">Visit Social Master</a></p>
 	<?php
 	}

@@ -2,7 +2,7 @@
 /**
 Plugin Name: Social Master
 Plugin URI: http://wordpress.techgasp.com/social-master/
-Version: 3.3
+Version: 3.4
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: social-master
@@ -32,7 +32,11 @@ define('TECHGASP_SOCIALMASTER_ID', 'social-master-options');
 // DEFINE PLUGIN NICK
 define('TECHGASP_SOCIALMASTER_NICK', 'Social Master');
 
+// HOOK WIDGET
 require_once('techgasp-socialmaster-widget.php');
+
+// HOOK INVITATION
+require_once('techgasp-socialmaster-invite.php');
 
     class techgasp_socialmaster
     {

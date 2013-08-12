@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.5.2
-Stable tag: 3.4
+Stable tag: 3.6
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -47,6 +47,9 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Pinterest "pin it" Button
 * View on Instagram Button
 * Youtube Subscribe Button
+* Soundcloud Profile Button
+* Reverbnation Profile Button
+* Spotify Profile Button
 * StumbleUpon Button
 * MySpace Button
 * Digg Button
@@ -96,6 +99,14 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 3.6 =
+* Added Soundcloud Profile button
+* Added Reverbnation Profile button
+* Added Spotify Profile button
+
+= 3.5 =
+* Removing tsm_quote
 
 = 3.4 =
 * Implementing Plugin Notices Framework
@@ -168,6 +179,9 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Upgrade Notice ==
+
+= 3.6 =
+* IMPORTANT New Buttons Added
 
 = 3.2 =
 * IMPORTANT New Buttons Added

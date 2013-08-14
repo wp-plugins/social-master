@@ -148,6 +148,15 @@ class techgasp_socialmaster_widget extends WP_Widget {
 		<!--YOUTUBE-->
 	<p><b>Youtube Options, Upgrade to Advanced Version.</b></p>
 	<hr>
+		<!--SOUNDCLOUD-->
+	<p><b>Soundcloud Options, Upgrade to Advanced Version.</b></p>
+	<hr>
+		<!--REVERBNATION-->
+	<p><b>Reverbnation Options, Upgrade to Advanced Version.</b></p>
+	<hr>
+		<!--SPOTIFY-->
+	<p><b>Spotify Options, Upgrade to Advanced Version.</b></p>
+	<hr>
 		<!--INSTAGRAM-->
 	<p><b>Instagram Options, Upgrade to Advanced Version.</b></p>
 	<hr>

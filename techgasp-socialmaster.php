@@ -2,7 +2,7 @@
 /**
 Plugin Name: Social Master
 Plugin URI: http://wordpress.techgasp.com/social-master/
-Version: 3.6
+Version: 3.7
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: social-master

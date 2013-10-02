@@ -2,7 +2,7 @@
 /**
 Plugin Name: Social Master
 Plugin URI: http://wordpress.techgasp.com/social-master/
-Version: 3.7
+Version: 3.8
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: social-master
@@ -106,7 +106,7 @@ require_once('techgasp-socialmaster-invite.php');
 		}
 		
 		// Add settings link on plugin page
-		public function techgasp_socialmaster_link($links, $file) {
+		public static function techgasp_socialmaster_link($links, $file) {
 		static $this_plugin;
 		if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
 		if ($file == $this_plugin){

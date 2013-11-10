@@ -36,7 +36,7 @@ class social_master_widget extends WP_Widget {
 	//Display Facebook
 	if ( $show_facebook ){
 		echo '<center>';
-		require('social-master-facebook.php');
+		require( dirname( __FILE__ ) . '/social-master-facebook.php');
 		echo '</center>';
 	}
 	else{
@@ -44,7 +44,7 @@ class social_master_widget extends WP_Widget {
 	//Display Twitter
 	if ( $show_twitter ){
 		echo '<center>';
-		require('social-master-twitter.php');
+		require( dirname( __FILE__ ) . '/social-master-twitter.php');
 		echo '</center>';
 	}
 	else{
@@ -52,7 +52,7 @@ class social_master_widget extends WP_Widget {
 	//Display Google Plus
 	if ( $show_google ){
 		echo '<center>';
-		require('social-master-google.php');
+		require(dirname( __FILE__ ) . '/social-master-google.php');
 		echo '</center>';
 	}
 	else{

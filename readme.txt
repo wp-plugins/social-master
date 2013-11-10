@@ -119,7 +119,7 @@ Please update to latest version. Up-to-date API's are available
 
 = 4.0.1 =
 * Implementing New Pinterest Button API
-* Changing directory calls to support Multi-Domains wordpress installations
+* Changing directory calls to support Multi-Domain installations
 
 = 4.0 =
 * Implementing New Shortcode Framework v2. Shortcode box will now be available when editing a page or a post

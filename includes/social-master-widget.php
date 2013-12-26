@@ -21,6 +21,7 @@ class social_master_widget extends WP_Widget {
 		@$uribase = site_url( $path, $scheme );
 		@$uricurrent ="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 		$socialspacer ="'";
+		$show_display = isset( $instance['show_display'] ) ? $instance['show_display'] :false;
 		$show_facebook = isset( $instance['show_facebook'] ) ? $instance['show_facebook'] :false;
 		$facebook_display = isset( $instance['facebook_display'] ) ? $instance['facebook_display'] :false;
 		$facebook_page = $instance['facebook_page'];
@@ -33,38 +34,62 @@ class social_master_widget extends WP_Widget {
 		// Display the widget title
 	if ( $title )
 		echo $before_title . $name . $after_title;
+//CSS FOR BUTTONS
+	//display vertical
+	if ( $show_display == 'on' ) {
+	echo '<div class="social-master-buttons" style="display:flex !important;">';
 	//Display Facebook
 	if ( $show_facebook ){
-		echo '<center>';
 		require( dirname( __FILE__ ) . '/social-master-facebook.php');
-		echo '</center>';
 	}
 	else{
 	}
 	//Display Twitter
 	if ( $show_twitter ){
-		echo '<center>';
 		require( dirname( __FILE__ ) . '/social-master-twitter.php');
-		echo '</center>';
 	}
 	else{
 	}
 	//Display Google Plus
 	if ( $show_google ){
-		echo '<center>';
-		require(dirname( __FILE__ ) . '/social-master-google.php');
-		echo '</center>';
+		require( dirname( __FILE__ ) . '/social-master-google.php');
 	}
 	else{
 	}
+	echo '</div>';
+}
+//display horizontal
+else{
+	//Display Facebook
+	if ( $show_facebook ){
+		require( dirname( __FILE__ ) . '/social-master-facebook.php');
+	}
+	else{
+	}
+	//Display Twitter
+	if ( $show_twitter ){
+		require( dirname( __FILE__ ) . '/social-master-twitter.php');
+	}
+	else{
+	}
+	//Display Google Plus
+	if ( $show_google ){
+		require( dirname( __FILE__ ) . '/social-master-google.php');
+	}
+	else{
+	}
+}
 		echo $after_widget;
 	}
 	//Update the widget
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 		//Strip tags from title and name to remove HTML
+		$instance['down_link_social'] = $new_instance['down_link_social'];
+		update_option('down_link_social', $new_instance['down_link_social']);
 		$instance['name'] = strip_tags( $new_instance['name'] );
 		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['show_display'] = $new_instance['show_display'];
 		$instance['show_facebook'] = $new_instance['show_facebook'];
 		$instance['facebook_display'] = $new_instance['facebook_display'];
 		$instance['facebook_page'] = strip_tags( $new_instance['facebook_page'] );
@@ -76,7 +101,7 @@ class social_master_widget extends WP_Widget {
 	}
 	function form( $instance ) {
 	//Set up some default widget settings.
-	$defaults = array( 'name' => __('Social Master', 'social_master'), 'title' => true, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
+	$defaults = array( 'name' => __('Social Master', 'social_master'), 'title' => true, 'show_display' => false, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
 	<br>
@@ -88,6 +113,15 @@ class social_master_widget extends WP_Widget {
 	<input type="checkbox" <?php checked( (bool) $instance['title'], true ); ?> id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'title' ); ?>"><b><?php _e('Display Widget Title', 'social_master'); ?></b></label></br>
 	</p>
+		<!--DISPLAY-->
+	<p>
+	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	&nbsp;
+	<input type="checkbox" <?php checked( (bool) $instance['show_display'], true ); ?> id="<?php echo $this->get_field_id( 'show_display' ); ?>" name="<?php echo $this->get_field_name( 'show_display' ); ?>" />
+	<label for="<?php echo $this->get_field_id( 'show_display' ); ?>"><b><?php _e('Activates Horizontal Display', 'social_master'); ?></b></label></br>
+	</p>
+	<div class="description">Unchecked display is Vertical.</div>
+	<br>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 		<!--FACEBOOK-->
 	<p>

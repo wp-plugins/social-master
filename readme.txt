@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 4.1
+Stable tag: 4.2
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -26,6 +26,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 **LITE Version Contains:**
 
 * Display or hide Widget Title
+* Activate Horizontal Display, otherwise Vertical Display
 * Facebook Like Button
 * Facebook Send Button
 * Twitter Follow Button
@@ -34,6 +35,8 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **ADVANCED Version Contains:**
 
+* Display or hide Widget Title
+* Activate Horizontal Display, otherwise Vertical Display
 * Facebook Like Button
 * Facebook Send Button
 * Twitter Follow Button
@@ -111,11 +114,20 @@ Please update to latest version. Up-to-date API's are available
 
 1. Widget With Facebook FanPage Total Count
 2. Widget With Facebook Like Your Individual Website Pages
-3. Advanced Widget with all Social Network Buttons
-4. Advanced Widget inside pages and posts with shortcode framework
+3. Advanced Widget, Vertical Display with all Social Network Buttons
+4. Advanced Widget, Horizontal Display with all Social Network Buttons
+5. Advanced Widget, Horizontal Display inside pages and posts with shortcode framework
+6. Advanced Widget, Vertical Display with 3 networks inside pages and posts with shortcode framework
 
 
 == Changelog ==
+
+= 4.2 =
+* Horizontal button display added. Looks great inside pages and posts.
+* New Pinterest Button and API
+* New Google Button and API
+* New Youtube Button and API
+* New Spotify Button
 
 = 4.1 =
 * Wordpress 3.8 Ready

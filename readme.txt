@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 4.2.1
+Tested up to: 3.8.1
+Stable tag: 4.3
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -19,13 +19,17 @@ The plugin is packed with many display options, in fact you can decide what butt
 
 Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, double punch action - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Shortcode Framework ready, to publish inside pages and post
 
+Social Master is currently the only plugin where users can decide which social network buttons to show and their order, yes you can order the buttons according to your social network priorities
+
 **Social Master is the Wordpress social sharing Supreme widget**
 
 IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **LITE Version Contains:**
 
-* Display or hide Widget Title
+* Display, Hide or Change any Widget Title
+
+* Social Master Basic Fast Loading Widget:
 * Activate Horizontal Display, otherwise Vertical Display
 * Facebook Like Button
 * Facebook Send Button
@@ -35,8 +39,20 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **ADVANCED Version Contains:**
 
-* Display or hide Widget Title
+* Display, Hide or Change any Widget Title
+
+* Social Master Basic Fast Loading Widget:
 * Activate Horizontal Display, otherwise Vertical Display
+* Facebook Like Button
+* Facebook Send Button
+* Twitter Follow Button
+* Tweet Button
+* Google Plus Button
+
+* Social Master Advanced Widget:
+* Activate Horizontal Display, otherwise Vertical Display
+* Selectable Button Display
+* Selectable Button Order Display
 * Facebook Like Button
 * Facebook Send Button
 * Twitter Follow Button
@@ -55,13 +71,15 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * MySpace Button
 * Digg Button
 * Reddit Button
-* Shortcode Framework v2 to publish widget inside pages and posts
+
+* Shortcode Framework v3. Universal Shortcode for all pages and posts and Individual Shortcode for each page or post
+* Shortcodes allow you to professionally display your instagram photos inside your wordpress pages and post
 * [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
 
 **ONLINE DEMO**
 
 * Right of the page, sidebar widget
-* Inside the post, with shortcode framework v2
+* Inside the post, with shortcode framework
 * [Demo Link](http://wordpress.techgasp.com/social-master)
 
 **More High Quality Plugins?**
@@ -74,9 +92,9 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 == Installation ==
 
-1. Use the Wordpress Installer, Updater.
-2. Activate in the "Plugins" admin panel.
-3. Visit the "Widget Page | LinkedIn Master" to configure the settings and your template widget position.
+1. Use the Wordpress Installer, Updater
+2. Activate in the "Plugins" admin panel
+3. Visit the "Widget Page | Social Master Widgets" to configure widgets settings and your template widget positions
 4. [Social Master Documentation](http://wordpress.techgasp.com/social-master-documentation/)
 
 
@@ -89,21 +107,21 @@ Can be fixed by changing your template style.css and allow overflow:visible to t
 = Issues with buttons display =
 Please update to latest version. Up-to-date API's are available
 
-= Where are all the buttons? =
-* LITE Version Contains Facebook Like, Twitter Follow, Tweet and Google Plus
-* Advanced Version contains all Buttons and Social Networks. Facebook Like, Twitter Follow and Re-Tweet, Google + plus, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Digg Share, Reddit Share
+= Where are all widgets? =
+* Advanced Version Add-ons contains all widgets
 * [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
 
-= Where is the shortcode? =
-* Advanced Version contains shortcode framework v2, publish plugin inside your pages and posts.
+= Insert Shortcode in Pages or Posts =
+* Advanced Version Add-ons contain the shortcode framework v3
+* Insert the universal shortcode into any page or post. [social-master-un]
+* Insert the individual shortcode into any page or post. [social-master]
 * [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
-* Insert the code into the page or post [social-master]
 
-= What's this Shortcode Framework v2 =
-* It's a framework developed by TechGasp and built upon wordpress marvellous resources.
-* Allows users to quickly and easily display plugins or widgets inside their pages and posts.
-* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v2.
-* [About Shortcode Framework v2](http://wordpress.techgasp.com/new-wordpress-framework-from-techgasp/)
+= What's this Shortcode Framework v3 =
+* It's a framework developed by TechGasp and built upon wordpress marvellous resources
+* Allows users to quickly and easily display plugins or widgets inside their pages and posts
+* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v3
+* [About Shortcode Framework v3](http://wordpress.techgasp.com/techgasp-wordpress-framework-v3/)
 
 = Need More Help =
 * [Social Master Documentation](http://wordpress.techgasp.com/social-master-documentation)
@@ -112,15 +130,25 @@ Please update to latest version. Up-to-date API's are available
 
 == Screenshots ==
 
-1. Widget With Facebook FanPage Total Count
-2. Widget With Facebook Like Your Individual Website Pages
-3. Advanced Widget, Vertical Display with all Social Network Buttons
-4. Advanced Widget, Horizontal Display with all Social Network Buttons
-5. Advanced Widget, Horizontal Display inside pages and posts with shortcode framework
-6. Advanced Widget, Vertical Display with 3 networks inside pages and posts with shortcode framework
+1. Social Master Basic Fast Loading Widget With Facebook FanPage Total Count
+2. Social Master Basic Fast Loading Widge With Facebook Like Your Individual Website Pages
+3. Social Master Advanced Widget, Vertical Display with all Social Network Buttons
+4. Social Master Advanced Widget, Horizontal Display with all Social Network Buttons, Footer Widget Area
+5. Shortcode Framework inside pages and posts
+6. Shortcode Framework inside pages and posts
 
 
 == Changelog ==
+
+= 4.3 =
+* New TechGasp Plugin Framework
+* New Plugin Menu
+* New Administrator Page
+* New Universal Shortcode that can be combined with Individual Shortcodes in Pages and Posts
+* Adding index SEC
+* New API's
+* New Social Master Basic Fast Loading Widget
+* New Social Master Advanced Widget
 
 = 4.2.1 =
 * Hiding comment pop-up in facebook like
@@ -239,8 +267,11 @@ Please update to latest version. Up-to-date API's are available
 
 == Upgrade Notice ==
 
+= 4.3 =
+* IMPORTANT Upgrade to new TechGasp Plugin Framework v3
+
 = 4.0 =
-* IMPORTANT Upgrade to new TechGasp Plugin Framework
+* IMPORTANT Upgrade to new TechGasp Plugin Framework v2
 
 = 3.6 =
 * IMPORTANT New Buttons Added

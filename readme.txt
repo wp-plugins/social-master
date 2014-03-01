@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 3.8.1
-Stable tag: 4.3
+Stable tag: 4.3.5
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -72,8 +72,10 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Digg Button
 * Reddit Button
 
-* Shortcode Framework v3. Universal Shortcode for all pages and posts and Individual Shortcode for each page or post
-* Shortcodes allow you to professionally display your instagram photos inside your wordpress pages and post
+* TechGasp Shortcode Framework v3:
+* Universal Shortcode for all pages and posts, same Shortocde applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
+* Individual Shortcode for each page or post, individual customized shortcode per page or post
+* Shortcodes allow you to professionally display your plugin inside pages and posts maintaining fast page load times and excellent Google SEO
 * [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
 
 **ONLINE DEMO**
@@ -139,6 +141,16 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 4.3.5 =
+* TechGasp Plugin Framework v3 Improvements and Upgrades
+* New Universal Shortcode Options:
+* Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page and post
+* Option to Automatically only show the shortcode in Posts, not Pages
+* Option to Automatically show the shortcode After the Title or After the Content
+* New Twitter Button Options for Horizontal Button Display in heavy duty blogs with thousands of Followers and Tweets:
+* Added option to extend the Follow Button Bubble Count to accommodate thousands of followers
+* Added option to extend the Tweet Button Bubble Count to accommodate thousands of tweets
 
 = 4.3 =
 * New TechGasp Plugin Framework

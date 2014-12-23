@@ -28,6 +28,8 @@ class social_master_widget_basic extends WP_Widget {
 		$facebook_id = $instance['facebook_id'];
 		$show_twitter = isset( $instance['show_twitter'] ) ? $instance['show_twitter'] :false;
 		$twitter_user = $instance['twitter_user'];
+		$twitter_follow_w = $instance['twitter_follow_w'];
+		$twitter_tweet_w = $instance['twitter_tweet_w'];
 		$show_google = isset( $instance['show_google'] ) ? $instance['show_google'] :false;
 		echo $before_widget;
 		
@@ -41,8 +43,21 @@ class social_master_widget_basic extends WP_Widget {
 	else{
 	}
 //CSS FOR BUTTONS
-	//display vertical
+	//display horizontal
 	if ( $show_display == 'on' ) {
+		//Twitter Override Bubble Size Horizontal
+		if ( $twitter_follow_w == 'on' ) {
+		$social_master_twitter_follow_w = "150";
+		}
+		else{
+		$social_master_twitter_follow_w = "140";
+		}
+		if ( $twitter_tweet_w == 'on' ) {
+		$social_master_twitter_tweet_w = "90";
+		}
+		else{
+		$social_master_twitter_tweet_w = "85";
+		}
 	echo '<div class="social-master-buttons" style="display:flex !important;">';
 	//Display Facebook
 	if ( $show_facebook ){
@@ -62,8 +77,9 @@ class social_master_widget_basic extends WP_Widget {
 	}
 	else{
 	}
+	echo '</div>';
 }
-//display horizontal
+//display vertical
 else{
 	//Display Facebook
 	if ( $show_facebook ){
@@ -99,12 +115,14 @@ else{
 		$instance['facebook_id'] = strip_tags( $new_instance['facebook_id'] );
 		$instance['show_twitter'] = $new_instance['show_twitter'];
 		$instance['twitter_user'] = $new_instance['twitter_user'];
+		$instance['twitter_follow_w'] = strip_tags( $new_instance['twitter_follow_w'] );
+		$instance['twitter_tweet_w'] = strip_tags( $new_instance['twitter_tweet_w'] );
 		$instance['show_google'] = $new_instance['show_google'];
 		return $instance;
 	}
 	function form( $instance ) {
 	//Set up some default widget settings.
-	$defaults = array( 'social_title_new' => __('Social Master', 'social_master'), 'social_title' => true, 'social_title_new' => false, 'show_display' => false, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'show_google' => false );
+	$defaults = array( 'social_title_new' => __('Social Master', 'social_master'), 'social_title' => true, 'social_title_new' => false, 'show_display' => false, 'show_facebook' => false, 'facebook_display' => false, 'facebook_page' => false, 'facebook_id' => false, 'show_twitter' => false, 'twitter_user' => false, 'twitter_follow_w' => false, 'twitter_tweet_w' => false, 'show_google' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
 	<br>
@@ -160,6 +178,16 @@ else{
 	<label for="<?php echo $this->get_field_id( 'twitter_user' ); ?>"><?php _e('Twitter Username:', 'social_master'); ?></label></br>
 	<input id="<?php echo $this->get_field_id( 'twitter_user' ); ?>" name="<?php echo $this->get_field_name( 'twitter_user' ); ?>" value="<?php echo $instance['twitter_user']; ?>" style="width:auto;" />
 	</p>
+	<p>
+	<input type="checkbox" <?php checked( (bool) $instance['twitter_follow_w'], true ); ?> id="<?php echo $this->get_field_id( 'twitter_follow_w' ); ?>" name="<?php echo $this->get_field_name( 'twitter_follow_w' ); ?>" />
+	<label for="<?php echo $this->get_field_id( 'twitter_follow_w' ); ?>"><?php _e('Activate Bigger Follow Bubble', 'social_master'); ?></label></br>
+	<div class="description">Optional for Horizontal Display, activate if you have thousands of followers and the Follow Button Bubble is being cut</div>
+	</p>
+	<p>
+	<input type="checkbox" <?php checked( (bool) $instance['twitter_tweet_w'], true ); ?> id="<?php echo $this->get_field_id( 'twitter_tweet_w' ); ?>" name="<?php echo $this->get_field_name( 'twitter_tweet_w' ); ?>" />
+	<label for="<?php echo $this->get_field_id( 'twitter_tweet_w' ); ?>"><?php _e('Activate Bigger Tweet Bubble', 'social_master'); ?></label></br>
+	<div class="description">Optional for Horizontal Display, activate if you have thousands of tweets and the Tweet Button Bubble is being cut</div>
+	</p>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 		<!--GOOGLE-->
 	<p>
@@ -175,8 +203,14 @@ else{
 	&nbsp;
 	<b>Social Master Website</b>
 	</p>
-	<p><a class="button-secondary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/social-master-documentation/" target="_blank" title="Social Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Visit Website">Get Add-ons</a></p>
+	<p><a class="button-secondary" href="http://wordpress.techgasp.com/social-master/" target="_blank" title="Social Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/social-master-documentation/" target="_blank" title="Social Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.org/plugins/social-master/" target="_blank" title="Social Master Wordpress">RATE US *****</a></p>
 	<?php
 	}
  }
+ //Hook CSS
+ function hook_social_master_wb_css(){
+$output_facebook_css = '<style type="text/css">.fb-like {overflow:visible !important; width:450px !important; margin-right:-375px !important;}</style>';
+echo $output_facebook_css;
+}
+add_action('wp_head','hook_social_master_wb_css');
 ?>

@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 4.3.6
+Tested up to: 4.1
+Stable tag: 4.3.7.3
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -73,7 +73,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Reddit Button
 
 * TechGasp Shortcode Framework v3:
-* Universal Shortcode for all pages and posts, same Shortocde applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
+* Universal Shortcode for all pages and posts, same Shortcode applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
 * Individual Shortcode for each page or post, individual customized shortcode per page or post
 * Shortcodes allow you to professionally display your plugin inside pages and posts maintaining fast page load times and excellent Google SEO
 * [Advanced Version Link](http://wordpress.techgasp.com/social-master/)
@@ -133,7 +133,7 @@ Please update to latest version. Up-to-date API's are available
 == Screenshots ==
 
 1. Social Master Basic Fast Loading Widget With Facebook FanPage Total Count
-2. Social Master Basic Fast Loading Widge With Facebook Like Your Individual Website Pages
+2. Social Master Basic Fast Loading Widget With Facebook Like Your Individual Website Pages
 3. Social Master Advanced Widget, Vertical Display with all Social Network Buttons
 4. Social Master Advanced Widget, Horizontal Display with all Social Network Buttons, Footer Widget Area
 5. Shortcode Framework inside pages and posts
@@ -141,6 +141,19 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 4.3.7.3 =
+* Inserting better html5 tags for w3 validation
+
+= 4.3.7.2 =
+* Better Vertical Alignment
+* New Spotify Button
+
+= 4.3.7.1 =
+* Small fix in the facebook buttons
+
+= 4.3.7 =
+* New Facebook API
 
 = 4.3.6 =
 * Added automatic deletion of site_transients

@@ -14,7 +14,7 @@ if ( $show_display == 'on' ){
 		'</div>';
 }
 else{
-	echo '<center>' . 
+	echo '<div style="margin: 0 auto; display:table;">' .
 		'<div class="g-plusone" data-size="tall"></div>' .
 		'<script type="text/javascript">' .
 		'(function() {' .
@@ -22,6 +22,7 @@ else{
 		'po.src = '.$socialspacer.'https://apis.google.com/js/plusone.js'.$socialspacer.';' .
 		'var s = document.getElementsByTagName('.$socialspacer.'script'.$socialspacer.')[0]; s.parentNode.insertBefore(po, s);' .
 		'})();' .
-		'</script></center>';
+		'</script>' .
+		'</div>';
 }
 ?>

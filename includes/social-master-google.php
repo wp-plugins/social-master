@@ -2,7 +2,7 @@
 get_post_custom();
 //Display Google Plus
 if ( $show_display == 'on' ){
-	echo '<div id="___plusone_0" style="width: 65px; !important">' .
+	echo '<div id="___plusone_0" style="width:65px !important; z-index:10;">' .
 		'<div class="g-plusone" id="___plusone_0" style="width: 65px; !important" data-size="medium"></div>' .
 		'<script type="text/javascript">' .
 		'(function() {' .

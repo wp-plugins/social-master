@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 4.3.7.3
+Tested up to: 4.1.1
+Stable tag: 4.4.1.6
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -17,7 +17,7 @@ Built-in html5 and iframe, Social Master combines all major social networks shar
 
 The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
 
-Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, double punch action - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Shortcode Framework ready, to publish inside pages and post
+Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, double punch action (adds facebook "og" properties to your theme if needed, og:site_name, og:type, og:url, og:title, og:description, og:image) - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Shortcode Framework ready, to publish inside pages and post
 
 Social Master is currently the only plugin where users can decide which social network buttons to show and their order, yes you can order the buttons according to your social network priorities
 
@@ -141,6 +141,43 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 4.4.1.6 =
+* Getting all widget titles network ready
+
+= 4.4.1.5 =
+* Fixing Twitter and Google API. In some occasions buttons do not mouse-over.
+
+= 4.4.1.4 =
+* Tweaking head placement
+
+= 4.4.1.3 =
+* Adding a settings page for site wide button settings
+* Removing individual button settings from widgets and shortcodes. All these settings are now available under the new plugin page Settings.
+* Adding og properties to facebook like and share buttons. These settings should be passed by themes but they are missing in the majority of them.
+* For awesome facebook likes and shares, Social Master will now automatically retrieve data from the pages and posts to automatically generate:
+* og:site_name
+* og:type
+* og:url
+* og:title
+* og:description
+* og:image
+
+= 4.4.1.2 =
+* Adding Network Warnings and help texts
+
+= 4.4.1.1 =
+* Fixing uninstall, plugin deletion on wordpress network and multi-sites
+
+= 4.4.1.0 =
+* Fixing Shortcodes
+* Fixing Widgets
+* General clean-up and speed boost
+
+= 4.4.0 =
+* Wordpress multi-site or wordpress network ready
+* New screenshots and images
+* Facebook Button Fly-out tweaked
 
 = 4.3.7.3 =
 * Inserting better html5 tags for w3 validation

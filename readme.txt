@@ -2,7 +2,7 @@
 Contributors: TechGasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 Stable tag: 4.4.1.7
 License: GPLv2 or later
 

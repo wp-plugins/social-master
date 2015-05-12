@@ -2,7 +2,7 @@
 /**
 Plugin Name: Social Master
 Plugin URI: http://wordpress.techgasp.com/social-master/
-Version: 4.4.1.7
+Version: 4.4.1.8
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: social-master
@@ -33,9 +33,9 @@ define( 'SOCIAL_MASTER_URL', plugin_dir_url( __FILE__ ) );
 ///////DEFINE ID//////
 define('SOCIAL_MASTER_ID', 'social-master');
 ///////DEFINE VERSION///////
-define( 'SOCIAL_MASTER_VERSION', '4.4.1.7' );
+define( 'SOCIAL_MASTER_VERSION', '4.4.1.8' );
 global $social_master_version, $social_master_name;
-$social_master_version = "4.4.1.7"; //for other pages
+$social_master_version = "4.4.1.8"; //for other pages
 $social_master_name = "Social Master"; //pretty name
 if( is_multisite() ) {
 update_site_option( 'social_master_installed_version', $social_master_version );

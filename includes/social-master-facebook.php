@@ -13,7 +13,7 @@ if ( $show_display == 'on' ){
 		'var js, fjs = d.getElementsByTagName(s)[0];' .
 		'if (d.getElementById(id)) return;' .
 		'js = d.createElement(s); js.id = id;' .
-		'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='.$social_master_system_wide_facebook_id.'";' .
+		'js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId='.$social_master_system_wide_facebook_id.'";' .
 		'fjs.parentNode.insertBefore(js, fjs);' .
 		'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script>' .
 		'<div class="fb-like" data-href="'.$social_master_system_wide_facebook_page.'" data-send="true" data-layout="button_count" data-width="90" data-show-faces="false" style="width:450px !important; overflow: visible !important z-index:9999 !important"></div>' .
@@ -26,7 +26,7 @@ if ( $show_display == 'on' ){
 		'var js, fjs = d.getElementsByTagName(s)[0];' .
 		'if (d.getElementById(id)) return;' .
 		'js = d.createElement(s); js.id = id;' .
-		'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='.$social_master_system_wide_facebook_id.'";' .
+		'js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId='.$social_master_system_wide_facebook_id.'";' .
 		'fjs.parentNode.insertBefore(js, fjs);' .
 		'}(document, '.$socialspacer.'script'.$socialspacer.', '.$socialspacer.'facebook-jssdk'.$socialspacer.'));</script>' .
 		'<div class="fb-like" data-href="'.$uricurrent.'" data-send="true" data-layout="button_count" data-width="90" data-show-faces="false" style="width:450px !important; overflow: visible !important z-index:9999 !important"></div>' .

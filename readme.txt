@@ -2,8 +2,8 @@
 Contributors: TechGasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 4.4.1.8
+Tested up to: 4.3
+Stable tag: 4.4.2.5
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -23,13 +23,13 @@ Social Master is currently the only plugin where users can decide which social n
 
 **Social Master is the Wordpress social sharing Supreme widget**
 
-IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
+> IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
-**LITE Version Contains:**
+**LITE Version Contains**
 
 * Display, Hide or Change any Widget Title
 
-* Social Master Basic Fast Loading Widget:
+* Social Master Basic Fast Loading Widget
 * Activate Horizontal Display, otherwise Vertical Display
 * Facebook Like Button
 * Facebook Send Button
@@ -37,11 +37,11 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Tweet Button
 * Google Plus Button
 
-**ADVANCED Version Contains:**
+**ADVANCED Version Contains**
 
 * Display, Hide or Change any Widget Title
 
-* Social Master Basic Fast Loading Widget:
+* Social Master Basic Fast Loading Widget
 * Activate Horizontal Display, otherwise Vertical Display
 * Facebook Like Button
 * Facebook Send Button
@@ -49,7 +49,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Tweet Button
 * Google Plus Button
 
-* Social Master Advanced Widget:
+* Social Master Advanced Widget
 * Activate Horizontal Display, otherwise Vertical Display
 * Selectable Button Display
 * Selectable Button Order Display
@@ -72,7 +72,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Digg Button
 * Reddit Button
 
-* TechGasp Shortcode Framework v3:
+* TechGasp Shortcode Framework v3
 * Universal Shortcode for all pages and posts, same Shortcode applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
 * Individual Shortcode for each page or post, individual customized shortcode per page or post
 * Shortcodes allow you to professionally display your plugin inside pages and posts maintaining fast page load times and excellent Google SEO
@@ -141,6 +141,27 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 4.4.2.5 =
+* Wordpress 4.3.1
+
+= 4.4.2.4 =
+* Adding support for API over https
+
+= 4.4.2.3 =
+* Replacing WP_WIGDET with __contruct
+
+= 4.4.2.2 =
+* Wordpress 4.3
+
+= 4.4.2.1 =
+* Wordpress 4.2.3
+* Removing name global
+
+= 4.4.2.0 =
+* Includes several important fixes and speed-up's
+* New pre-installation flight
+* New text-domain because of updater
 
 = 4.4.1.8 =
 * New Facebook API and Buttons

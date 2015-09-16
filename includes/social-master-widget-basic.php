@@ -10,7 +10,7 @@ class social_master_widget_basic extends WP_Widget {
 	function social_master_widget_basic() {
 	$widget_ops = array( 'classname' => 'Social Master Basic', 'description' => __('This Widget was specially designed in html5 to be easy to use and deploy, all settings are on auto mode. Extremely fast page load times and small system trace. ', 'social_master') );
 	$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'social_master_widget_basic' );
-	$this->WP_Widget( 'social_master_widget_basic', __('Social Master Basic', 'social_master'), $widget_ops, $control_ops );
+	parent::__construct( 'social_master_widget_basic', __('Social Master Basic', 'social_master'), $widget_ops, $control_ops );
 	}
 	
 	function widget( $args, $instance ) {
@@ -111,7 +111,7 @@ class social_master_widget_basic extends WP_Widget {
 	<b>Check the buttons to be displayed:</b>
 		<!--TITLE-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; height:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['social_title'], true ); ?> id="<?php echo $this->get_field_id( 'social_title' ); ?>" name="<?php echo $this->get_field_name( 'social_title' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'social_title' ); ?>"><b><?php _e('Display Widget Title', 'social_master'); ?></b></label></br>
@@ -123,16 +123,16 @@ class social_master_widget_basic extends WP_Widget {
 	</p>
 		<!--DISPLAY-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['show_display'], true ); ?> id="<?php echo $this->get_field_id( 'show_display' ); ?>" name="<?php echo $this->get_field_name( 'show_display' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_display' ); ?>"><b><?php _e('Activates Horizontal Display', 'social_master'); ?></b></label></br>
 	<div class="description">Unchecked display is Vertical.</div>
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 		<!--FACEBOOK-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['show_facebook'], true ); ?> id="<?php echo $this->get_field_id( 'show_facebook' ); ?>" name="<?php echo $this->get_field_name( 'show_facebook' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_facebook' ); ?>"><b><?php _e('Facebook Button', 'social_master'); ?></b></label></br>
@@ -140,10 +140,10 @@ class social_master_widget_basic extends WP_Widget {
 	<p>
 	<div class="description">Check Plugin Settings Page for Facebook Options.</div>
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 		<!--TWITTER-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['show_twitter'], true ); ?> id="<?php echo $this->get_field_id( 'show_twitter' ); ?>" name="<?php echo $this->get_field_name( 'show_twitter' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_twitter' ); ?>"><b><?php _e('Twitter Button', 'social_master'); ?></b></label></br>
@@ -151,18 +151,18 @@ class social_master_widget_basic extends WP_Widget {
 	<p>
 	<div class="description">Check Plugin Settings Page for Twitter Options.</div>
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 		<!--GOOGLE-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['show_google'], true ); ?> id="<?php echo $this->get_field_id( 'show_google' ); ?>" name="<?php echo $this->get_field_name( 'show_google' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_google' ); ?>"><b><?php _e('Google Button', 'social_master'); ?></b></label>
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 		<!--NETWORKS-->
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<b>Social Master Website</b>
 	</p>

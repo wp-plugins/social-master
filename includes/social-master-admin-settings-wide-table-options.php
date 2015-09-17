@@ -430,7 +430,7 @@ Spotify Artist URI example:
 		<tr class="alternate">
 			<th class="check-column" scope="row"></th>
 			<td class="column-columnname" width="250">
-<h2>Feddly Options</h2>
+<h2>Feedly Options</h2>
 			</td>
 			<td class="column-columnname"></td>
 		</tr>

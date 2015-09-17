@@ -93,6 +93,11 @@ if ( isset($_POST['social_master_system_wide_spotify_page']) )
 update_option('social_master_system_wide_spotify_page', $_POST['social_master_system_wide_spotify_page'] );
 else
 update_option('social_master_system_wide_spotify_page', '' );
+//Feedly
+if ( isset($_POST['social_master_system_wide_feedly_page']) )
+update_option('social_master_system_wide_feedly_page', $_POST['social_master_system_wide_feedly_page'] );
+else
+update_option('social_master_system_wide_feedly_page', '' );
 ?>
 <div id="message" class="updated fade">
 <p><strong><?php _e('Settings Saved!', 'social_master'); ?></strong></p>
@@ -417,8 +422,28 @@ Optional for Horizontal buttons Display.
 			<td class="column-columnname" style="vertical-align:middle">
 <input id="social_master_system_wide_spotify_page" name="social_master_system_wide_spotify_page" type="text" size="22" value="<?php echo get_option('social_master_system_wide_spotify_page'); ?>">
 <div class="description">
-Spotify Artist URI. Example:
+Spotify Artist URI example:
 <br>spotify:artist:1vCWHaC5f2uS3yhpwWbIA6
+</div>
+			</td>
+		</tr>
+		<tr class="alternate">
+			<th class="check-column" scope="row"></th>
+			<td class="column-columnname" width="250">
+<h2>Feddly Options</h2>
+			</td>
+			<td class="column-columnname"></td>
+		</tr>
+		<tr class="alternate">
+			<th class="check-column" scope="row"></th>
+			<td class="column-columnname" width="250">
+<label for="social_master_system_wide_feedly_page"><b><?php _e('Feedly Feed Link:', 'social_master'); ?></b></label>
+			</td>
+			<td class="column-columnname" style="vertical-align:middle">
+<input id="social_master_system_wide_feedly_page" name="social_master_system_wide_feedly_page" type="text" size="22" value="<?php echo get_option('social_master_system_wide_feedly_page'); ?>">
+<div class="description">
+Feedly feed link example:
+<br>https://wordpress.techgasp.com/feed/
 </div>
 			</td>
 		</tr>

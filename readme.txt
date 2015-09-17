@@ -3,7 +3,7 @@ Contributors: TechGasp
 Tags: wordpress, facebook, twitter, google, instagram, pinterest, youtube, yahoo, social, share, like, tweet
 Requires at least: 3.5
 Tested up to: 4.3
-Stable tag: 4.4.2.5
+Stable tag: 4.4.2.6
 License: GPLv2 or later
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement.
@@ -13,11 +13,11 @@ Social Master is a light weight and shiny clean code wordpress plugin WIDGET tha
 
 Social Master is a light weight and shiny clean code wordpress plugin WIDGET that you need to boost your wordpress social engagement, attracting new users, visits or sales. Social Master replaces a bunch of extensions keeping your wordpress website code clean and with fast page loading times because it makes NO use of Javascipt or Ajax.
 
-Built-in html5 and iframe, Social Master combines all major social networks sharing tools, Facebook Like and Send, Twitter Follow and Re-Tweet, Google + plus, Tumblr Follow, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Digg Share and Reddit Share, with more social networks coming in future updates.
+Built-in html5 and iframe, Social Master combines all major social networks sharing tools, Facebook Like and Send, Twitter Follow and Re-Tweet, Google + plus, Tumblr Follow, LinkedIn Share, Pinterest "pin it" Share, View on Instagram, Youtube Subscribe, StumbleUpon Share, MySpace Share, Buffer Share, Soundcloud, Spotify, Reverbnation, Feedly, Digg Share and Reddit Share, with more social networks coming in future updates.
 
 The plugin is packed with many display options, in fact you can decide what buttons to show in the frontend and also the bubble per button that displays the number of social sharing. It will give your website or blog the needed social sharing viral boost while making your content look like a professional.
 
-Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, double punch action (adds facebook "og" properties to your theme if needed, og:site_name, og:type, og:url, og:title, og:description, og:image) - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Shortcode Framework ready, to publish inside pages and post
+Main Features: Must have viral share plugin - Asynchronous Load - Built-in html5- No Javascript - Facebook Like and Send, double punch action (adds facebook "og" properties to your theme if needed, og:site_name, og:type, og:url, og:title, og:description, og:image) - Twitter Follow and Tweet - Google Plus - Tumbrl - Buffer - LinkedIn - Pinterest - Instagram - Youtube - StumbleUpon - MySpace - Reddit - Digg - Soundcloud - Spotify - Reverbnation - Feedly - Shortcode Framework ready, to publish inside pages and post
 
 Social Master is currently the only plugin where users can decide which social network buttons to show and their order, yes you can order the buttons according to your social network priorities
 
@@ -58,7 +58,7 @@ Social Master is currently the only plugin where users can decide which social n
 * Twitter Follow Button
 * Tweet Button
 * Google + Plus Button
-* Tumblr Follow Button
+* Tumblr Share Button
 * Buffer Share Button
 * LinkedIn Button
 * Pinterest "pin it" Button
@@ -67,6 +67,7 @@ Social Master is currently the only plugin where users can decide which social n
 * Soundcloud Profile Button
 * Reverbnation Profile Button
 * Spotify Profile Button
+* Feedly Button
 * StumbleUpon Button
 * MySpace Button
 * Digg Button
@@ -141,6 +142,10 @@ Please update to latest version. Up-to-date API's are available
 
 
 == Changelog ==
+
+= 4.4.2.6 =
+* Adding Feedly Button
+* Updating Tumblr Sahre button
 
 = 4.4.2.5 =
 * Wordpress 4.3.1
